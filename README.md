@@ -8,4 +8,4 @@
     -   [Ethers](https://docs.ethers.io/v5/)
     -   [Alchemy](https://www.alchemy.com/)
 
--   Box contract address: 0xCf9e01A004d568fb32cBa88562c8aC6C7B369A29
+-   Not upgradeable Box contract address: 0xCf9e01A004d568fb32cBa88562c8aC6C7B369A29
