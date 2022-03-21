@@ -1,23 +1,32 @@
 {
-  "name": "openzeppelin-learn",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AlexandruSerban142/openzeppelin-learn.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AlexandruSerban142/openzeppelin-learn/issues"
-  },
-  "homepage": "https://github.com/AlexandruSerban142/openzeppelin-learn#readme",
-  "devDependencies": {
-    "hardhat": "^2.9.1"
-  }
+    "name": "openzeppelin-learn",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx hardhat run --network localhost scripts/deploy.js",
+        "test": "npx hardhat test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AlexandruSerban142/openzeppelin-learn.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AlexandruSerban142/openzeppelin-learn/issues"
+    },
+    "homepage": "https://github.com/AlexandruSerban142/openzeppelin-learn#readme",
+    "devDependencies": {
+        "@nomiclabs/hardhat-ethers": "^2.0.5",
+        "@nomiclabs/hardhat-waffle": "^2.0.3",
+        "chai": "^4.3.6",
+        "ethereum-waffle": "^4.0.0-alpha.0",
+        "ethers": "^5.6.1",
+        "hardhat": "^2.9.1"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.0"
+    }
 }
