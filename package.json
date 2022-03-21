@@ -21,12 +21,14 @@
     "devDependencies": {
         "@nomiclabs/hardhat-ethers": "^2.0.5",
         "@nomiclabs/hardhat-waffle": "^2.0.3",
+        "@openzeppelin/hardhat-upgrades": "^1.16.1",
         "chai": "^4.3.6",
         "ethereum-waffle": "^4.0.0-alpha.0",
         "ethers": "^5.6.1",
         "hardhat": "^2.9.1"
     },
     "dependencies": {
+        "@openzeppelin/contracts-upgradeable": "^4.5.2",
         "dotenv": "^16.0.0"
     }
 }
