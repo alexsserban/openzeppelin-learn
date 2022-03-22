@@ -11,12 +11,16 @@ contract Box is Initializable {
 
     event ValueChanged(uint256 value);
 
+    // constructor() {
+    //     _auth = new Auth(msg.sender);
+    // }
+
     function initialize(uint256 _x) public initializer {
         _auth = new Auth(msg.sender);
         store(_x);
     }
 
-    function store(uint256 value) public initializer {
+    function store(uint256 value) public {
         // Require that the caller is registered as an administrator in Auth
         require(_auth.isAdministrator(msg.sender), "Unauthorized");
 

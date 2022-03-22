@@ -1,7 +1,8 @@
-// Load dependencies
+// Testing Non Upgradable Box
+
 const chai = require("chai");
-const { ethers } = require("hardhat");
-const { solidity } = require("ethereum-waffle");
+const { ethers, waffle } = require("hardhat");
+const { solidity } = waffle;
 
 chai.use(solidity);
 const { expect } = chai;
