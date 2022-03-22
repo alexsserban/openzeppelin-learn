@@ -1,10 +1,7 @@
 // Testing Non Upgradable Box
 
 const chai = require("chai");
-const { ethers, waffle } = require("hardhat");
-const { solidity } = waffle;
-
-chai.use(solidity);
+const { ethers } = require("hardhat");
 const { expect } = chai;
 
 // Start test block
